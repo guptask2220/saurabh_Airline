@@ -6,7 +6,7 @@ import PersonItem from "../component/Dashboard/PersonItem";
 import { useState } from "react";
 import { Button } from "../../components/ui/button";
 import boy01 from "../../assets/boy01.jpg";
-import analytic from "../../assets/vector.png";
+import analytic from "../../assets/Vector.png";
 function AdminDashboardPage() {
   const clients = [
     {
