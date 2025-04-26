@@ -20,7 +20,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'https://saurabh-airline-git-main-guptask2220s-projects.vercel.app/',
+    origin: 'https://saurabh-airline-git-main-guptask2220s-projects.vercel.app',
     credentials: true,
   }));
   
