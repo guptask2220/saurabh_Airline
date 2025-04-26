@@ -7,14 +7,14 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const { check, validationResult } = require('express-validator');
 const auth = require('./routes/auth');
-const trip = require('./routes/tripRoutes')
-const users = require('./routes/users');
-const profile = require('./routes/profile');
-const aircrafts = require('./routes/aircrafts');
-const flights = require('./routes/flights');
-const bookings = require('./routes/bookings');
-const bankAccounts = require('./routes/bankAccounts');
-const transactions = require('./routes/transactions');
+// const trip = require('./routes/tripRoutes')
+// const users = require('./routes/users');
+// const profile = require('./routes/profile');
+// const aircrafts = require('./routes/aircrafts');
+// const flights = require('./routes/flights');
+// const bookings = require('./routes/bookings');
+// const bankAccounts = require('./routes/bankAccounts');
+// const transactions = require('./routes/transactions');
 
 const app = express();
 
@@ -32,14 +32,14 @@ const { dbConnect } = require("./config/db");
 dbConnect();
 
 app.use('/api/auth', auth);
-app.use('/api/users', users);
-app.use('/api/profile', profile);
-app.use('/api/aircrafts', aircrafts);
-app.use('/api/flights', flights);
-app.use('/api/bookings', bookings);
-app.use('/api/bank-accounts', bankAccounts);
-app.use('/api/transactions', transactions);
-app.use('/api/trip', trip);
+// app.use('/api/users', users);
+// app.use('/api/profile', profile);
+// app.use('/api/aircrafts', aircrafts);
+// app.use('/api/flights', flights);
+// app.use('/api/bookings', bookings);
+// app.use('/api/bank-accounts', bankAccounts);
+// app.use('/api/transactions', transactions);
+// app.use('/api/trip', trip);
 
 
 
