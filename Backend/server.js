@@ -20,7 +20,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://saurabh-airline-git-main-guptask2220s-projects.vercel.app/',
     credentials: true,
   }));
   
