@@ -20,7 +20,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'https://saurabh-airline.vercel.app',
+    origin: 'https://saurabh-airline-3.onrender.com',
     credentials: true,
   }));
   
